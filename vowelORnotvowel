@@ -1,0 +1,17 @@
+void main() {
+  String alphabet = "b";
+  switch(alphabet){
+    case "a":
+      print("$alphabet is a vowel");
+    case "e":
+      print("$alphabet is a vowel");
+    case "i":
+      print("$alphabet is a vowel");
+    case "o":
+      print("$alphabet is a vowel");
+    case "u":
+      print("$alphabet is a vowel");
+    default:
+      print("Sorry it is not a vowel");
+  }
+}
