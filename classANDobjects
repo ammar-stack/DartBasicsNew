@@ -1,0 +1,19 @@
+void main(){
+  NewStudent student = NewStudent();
+  student.name = "Ammar";
+  student.age = 24;
+  student.fees = 15000;
+  student.printInfo();
+}
+
+class NewStudent{
+  String? name;
+  int? age;
+  int? fees;
+  
+  void printInfo(){
+    print("Studen`s name is $name");
+    print("Student`s age is $age");
+    print("Fees of student is $fees");
+  }
+}
